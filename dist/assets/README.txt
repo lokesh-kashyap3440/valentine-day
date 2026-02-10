@@ -1,1 +1,0 @@
-Replace the placeholder SVGs with your photos named `pic1.svg`, `pic2.svg`, `pic3.svg` and add an MP3 named `love-song.mp3` if you want background music.
