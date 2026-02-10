@@ -30,9 +30,9 @@ export default function Gallery() {
       <h3>Moments Together</h3>
       <div className="grid">
         {bases.map((b, i) => {
-          const src = `/assets/${b}${exts[indices[i]]}`
-          const blur = `/assets/${b}-blur.jpg`
-          const webp = `/assets/${b}.webp`
+          const src = `assets/${b}${exts[indices[i]]}`
+          const blur = `assets/${b}-blur.jpg`
+          const webp = `assets/${b}.webp`
           return (
             <div key={i} className="photo portrait">
               <picture>
@@ -51,7 +51,7 @@ export default function Gallery() {
           )
         })}
       </div>
-      <p className="hint">Replace the images in <code>/public/assets/</code> with your photos (supported: <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, <code>.svg</code>). Run <code>npm run convert-images</code> to generate WebP and blurred placeholders.</p>
+      <p className="hint">Replace the images in <code>public/assets/</code> with your photos (supported: <code>.jpg</code>, <code>.jpeg</code>, <code>.png</code>, <code>.svg</code>). Run <code>npm run convert-images</code> to generate WebP and blurred placeholders.</p>
     </section>
   )
 }  

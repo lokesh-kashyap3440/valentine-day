@@ -29,7 +29,7 @@ export default function App() {
 
       <LoveLetter open={open} onClose={() => setOpen(false)} />
 
-      <audio ref={audioRef} src="/assets/love-song.mp3" preload="none" />
+      <audio ref={audioRef} src="assets/love-song.mp3" preload="none" />
 
       <footer className="footer">Made with love ❤️</footer>
     </div>
