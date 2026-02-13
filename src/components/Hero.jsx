@@ -22,8 +22,10 @@ export default function Hero({ onOpen, audioRef }) {
         <p className="subtitle">Every day with you is my favourite day.</p>
 
         <div className="hero-actions">
-          <button className="btn" onClick={onOpen}>Open Love Letter</button>
-          <button className="btn ghost" onClick={toggleMusic}>{playing ? 'Pause' : 'Play'} Music</button>
+          <button type="button" className="btn" onClick={onOpen}>Open Love Letter</button>
+          <button type="button" className="btn ghost" onClick={toggleMusic}>
+            {playing ? 'Pause' : 'Play'} Music
+          </button>
           <ThemeToggle />
         </div>
 
